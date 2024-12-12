@@ -1,0 +1,21 @@
+pragma solidity ^0.8.26;
+
+// Define each contract separately with an empty line between
+
+contract Owner {
+}
+
+contract Greeting is Owner {
+    address owner;
+    
+    constructor() public  {
+            owner = msg.sender; 
+        }
+}
+
+contract HelloOwner {
+
+function greet() public view returns (string memory) {
+    return "\u0045\u006c\u00e1, eu sou um contrato!";
+}
+}

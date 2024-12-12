@@ -1,0 +1,58 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "greet",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/hellios.sol": "HelloOwner"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/hellios.sol": {
+			"keccak256": "0xe68d74fce4b9d32ce97090f6d87442f4fdd8eab486fc70c79526c4db6012e374",
+			"urls": [
+				"bzz-raw://966ec69cecab2f6960a511151e4b3b897f866eeb1e8bc81f3860ed1eb5b98c11",
+				"dweb:/ipfs/QmU6HYAuEAtJh9CYPJmgUEk7NMKCvGxUNyYzS4erzDV8Ac"
+			]
+		}
+	},
+	"version": 1
+}
